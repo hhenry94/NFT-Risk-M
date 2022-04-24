@@ -1,5 +1,5 @@
-let RiskManagement = require('metaapi.cloud-risk-management-sdk').default;
-let DrawdownListener = require('metaapi.cloud-risk-management-sdk').DrawdownListener;
+let RiskManagement = require('metaapi.cloud-sdk').RiskManagement;
+let DrawdownListener = require('metaapi.cloud-sdk').DrawdownListener;
 
 // your MetaApi API token
 let token = process.env.TOKEN || '<put in your token here>';
