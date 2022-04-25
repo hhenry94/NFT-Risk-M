@@ -18,15 +18,15 @@ Features supported:
 - retrieving drawdown statistics
 - retrieving equity charts
 
-Please check Features section of the [https://metaapi.cloud/docs/riskManagement/](https://metaapi.cloud/docs/riskManagement/) documentation for detailed description of all settings you can make
+Please check Features section of the [https://metaapi.cloud/docs/risk-management/](https://metaapi.cloud/docs/risk-management/) documentation for detailed description of all settings you can make
 
 ## REST API documentation
 RiskManagement SDK is built on top of RiskManagement REST API.
 
-RiskManagement REST API docs are available at [https://metaapi.cloud/docs/riskManagement/](https://metaapi.cloud/docs/riskManagement/)
+RiskManagement REST API docs are available at [https://metaapi.cloud/docs/risk-management/](https://metaapi.cloud/docs/risk-management/)
 
 ## FAQ
-Please check this page for FAQ: [https://metaapi.cloud/docs/riskManagement/faq/](https://metaapi.cloud/docs/riskManagement/faq/).
+Please check this page for FAQ: [https://metaapi.cloud/docs/risk-management/faq/](https://metaapi.cloud/docs/risk-management/faq/).
 
 ## Code examples
 We published some code examples in our github repository, namely:
