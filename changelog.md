@@ -1,3 +1,6 @@
+1.0.4
+  - adjust package keywords
+
 1.0.3
   - fixed links to risk management API html docs in readme.md
 
