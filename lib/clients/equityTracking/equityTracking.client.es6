@@ -24,7 +24,8 @@ export default class EquityTrackingClient {
 
   /**
    * Period length to track drawdown for
-   * @typedef {'day' | 'week' | 'month' | 'quarter' | 'year' | 'lifetime'} Period
+   * @typedef {'day' | 'today' | 'week' | 'week-to-date' | 'month' | 'month-to-date' | 'quarter' | 'quarter-to-date' |
+   * 'year' | 'year-to-date' | 'lifetime'} Period
    */
 
   /**

@@ -1,3 +1,6 @@
+1.1.0
+  - add extra tracking periods
+
 1.0.4
   - adjust package keywords
 
