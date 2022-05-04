@@ -110,7 +110,7 @@ export declare type DrawdownTrackerUpdate = {
 /**
  * Period length to track drawdown for
  */
-export declare type Period = 'day' | 'period: 'today'' | 'week' | 'week-to-date' | 'month' | 'month-to-date' | 'quarter' |
+export declare type Period = 'day' | 'date' | 'week' | 'week-to-date' | 'month' | 'month-to-date' | 'quarter' |
     'quarter-to-date' | 'year' | 'year-to-date' | 'lifetime';
 
 /**
