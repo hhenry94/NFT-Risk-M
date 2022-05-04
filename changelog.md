@@ -1,3 +1,6 @@
+1.1.1
+  - adjusted traking period names
+
 1.1.0
   - add extra tracking periods
 
