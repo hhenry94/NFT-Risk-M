@@ -80,6 +80,19 @@ export default class EquityTrackingClient {
   }
 
   /**
+   * Returns drawdown tracker by account and name
+   * @param {string} accountId id of the MetaApi account
+   * @param {string} name tracker name
+   * @return {Promise<DrawdownTracker>} promise resolving with drawdown tracker found
+   */
+  getDrawdownTrackerByName(accountId, name) {
+    return this._domainClient.requestApi({
+      url: `/users/current/accounts/${accountId}/drawdown-trackers/name/${encodeURIComponent(name)}`,
+      method: 'GET'
+    });
+  }
+
+  /**
    * Updates drawdown tracker
    * @param {String} accountId id of the MetaApi account
    * @param {String} id id of the drawdown tracker

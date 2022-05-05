@@ -63,6 +63,21 @@ describe('EquityTrackingClient', () => {
   });
 
   /**
+   * @test {EquityTrackingClient#getDrawdownTrackerByName}
+   */
+  it('should retrieve drawdown tracker by name', async () => {
+    let expected = {name: 'trackerName'};
+    requestApiStub.resolves(expected);
+
+    let actual = await equityTrackingClient.getDrawdownTrackerByName('accountId', 'name');
+    actual.should.equal(expected);
+    sinon.assert.calledOnceWithExactly(domainClient.requestApi, {
+      url: '/users/current/accounts/accountId/drawdown-trackers/name/name',
+      method: 'GET'
+    });
+  });
+
+  /**
    * @test {EquityTrackingClient#updateDrawdownTracker}
    */
   it('should update drawdown tracker', async () => {

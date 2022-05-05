@@ -29,6 +29,14 @@ export default class EquityTrackingClient {
   getDrawdownTrackers(accountId: string): Promise<DrawdownTracker[]>;
 
   /**
+   * Returns drawdown tracker by account and name
+   * @param {string} accountId id of the MetaApi account
+   * @param {string} name tracker name
+   * @return {Promise<DrawdownTracker>} promise resolving with drawdown tracker found
+   */
+  getDrawdownTrackerByName(accountId: string, name: string): Promise<DrawdownTracker>;
+
+    /**
    * Updates drawdown tracker
    * @param {String} accountId id of the MetaApi account
    * @param {String} id id of the drawdown tracker
