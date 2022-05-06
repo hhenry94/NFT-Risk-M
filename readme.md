@@ -149,7 +149,7 @@ console.log(await riskManagementApi.getEquityChart('accountId'));
 ## Related projects:
 Take a look at our website for the full list of APIs and features supported [https://metaapi.cloud/#features](https://metaapi.cloud/#features)
 
-Some of the APIs you might decide to use together with MetaStats API are:
+Some of the APIs you might decide to use together with risk management API are:
 
 1. MetaApi cloud forex API [https://metaapi.cloud/docs/client/](https://metaapi.cloud/docs/client/)
 2. MetaTrader account management API [https://metaapi.cloud/docs/provisioning/](https://metaapi.cloud/docs/provisioning/)
