@@ -1,0 +1,1 @@
+Risk management code examples have moved to [https://github.com/agiliumtrade-ai/metaapi-node.js-sdk/tree/master/examples/riskManagement](https://github.com/agiliumtrade-ai/metaapi-node.js-sdk/tree/master/examples/riskManagement)
